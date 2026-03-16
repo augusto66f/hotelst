@@ -1,0 +1,527 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Stillus Hotel — Conforto, qualidade e praticidade para sua estadia em Morrinhos. Quartos modernos, café da manhã completo e espaço coworking.">
+    <meta name="theme-color" content="#0a1f14">
+    <title>Stillus Hotel — Conforto & Qualidade</title>
+
+    <!-- Fontes -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=DM+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+    <!-- Ícones -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+    <!-- Estilos -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- ================================================
+         HEADER
+    ================================================= -->
+    <header class="header" id="header">
+        <div class="header-bg"></div>
+        <div class="container header-content">
+
+            <a href="#" class="logo-link" aria-label="Stillus Hotel — início">
+                <div>
+                    <span class="logo-text">Still<span>us</span></span>
+                    <span class="logo-sub">Hotel &amp; Stay · Morrinhos</span>
+                </div>
+            </a>
+
+            <button class="menu-toggle" id="menuToggle" aria-label="Abrir menu" aria-expanded="false">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+
+            <nav class="nav" id="nav" role="navigation" aria-label="Menu principal">
+                <a href="#sobre"   class="nav-link">Sobre</a>
+                <a href="#quartos" class="nav-link">Quartos</a>
+                <a href="#cowork"  class="nav-link">Espaço</a>
+                <a href="#cafe"    class="nav-link">Café</a>
+                <a href="https://wa.me/5599999999999"
+                   target="_blank"
+                   rel="noopener noreferrer"
+                   class="btn-reservar">
+                    <i class="fa-brands fa-whatsapp" aria-hidden="true"></i>
+                    Reservar
+                </a>
+            </nav>
+
+        </div>
+    </header>
+
+
+    <!-- ================================================
+         HERO
+    ================================================= -->
+    <section class="hero" aria-label="Banner principal">
+        <img src="img/Frente.jpeg"
+             alt="Fachada do Stillus Hotel"
+             class="hero-img"
+             loading="eager">
+        <div class="hero-overlay"></div>
+
+        <div class="container">
+            <div class="hero-content">
+
+                <div class="hero-badge">
+                    <i class="fa-solid fa-star" aria-hidden="true"></i>
+                    Hospedagem Premium em Morrinhos
+                </div>
+
+                <h1 class="hero-title">
+                    Conforto &amp;<br>
+                    <em>Sofisticação</em><br>
+                    em cada detalhe
+                </h1>
+
+                <p class="hero-subtitle">
+                    Sua melhor escolha para viagens a negócios ou lazer.<br>
+                    Quartos modernos, café completo e localização privilegiada.
+                </p>
+
+                <div class="hero-actions">
+                    <a href="https://wa.me/5599999999999"
+                       target="_blank"
+                       rel="noopener noreferrer"
+                       class="btn-primary-hero">
+                        <i class="fa-brands fa-whatsapp" aria-hidden="true"></i>
+                        Fazer Reserva
+                    </a>
+                    <a href="#sobre" class="btn-outline-hero">
+                        <i class="fa-solid fa-arrow-down" aria-hidden="true"></i>
+                        Conheça o hotel
+                    </a>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="hero-scroll" aria-hidden="true">
+            <div class="hero-scroll-line"></div>
+            <span>scroll</span>
+        </div>
+    </section>
+
+
+    <!-- ================================================
+         STATS BAR
+    ================================================= -->
+    <div class="stats-bar" aria-label="Diferenciais">
+        <div class="stats-inner container">
+
+            <div class="stat-item reveal">
+                <div class="stat-num">24h</div>
+                <div class="stat-label">Segurança</div>
+            </div>
+
+            <div class="stat-item reveal reveal-delay-1">
+                <div class="stat-num">100%</div>
+                <div class="stat-label">Wi-Fi Grátis</div>
+            </div>
+
+            <div class="stat-item reveal reveal-delay-2">
+                <div class="stat-num">★ 4.9</div>
+                <div class="stat-label">Avaliação</div>
+            </div>
+
+            <div class="stat-item reveal reveal-delay-3">
+                <div class="stat-num">Free</div>
+                <div class="stat-label">Estacionamento</div>
+            </div>
+
+        </div>
+    </div>
+
+
+    <!-- ================================================
+         SOBRE
+    ================================================= -->
+    <section id="sobre" class="section section-about">
+        <div class="container">
+            <div class="about-grid">
+
+                <!-- Imagem -->
+                <div class="about-img-wrap reveal">
+                    <img src="img/Frente.jpeg"
+                         alt="Interior do Stillus Hotel"
+                         loading="lazy">
+                    <div class="about-img-badge">
+                        <div class="num">10+</div>
+                        <div class="lbl">Anos servindo</div>
+                    </div>
+                </div>
+
+                <!-- Texto -->
+                <div class="reveal reveal-delay-1">
+                    <div class="section-header">
+                        <div class="section-eyebrow">Sobre nós</div>
+                        <h2 class="section-title">Uma estadia<br><em>inesquecível</em></h2>
+                        <p class="section-lead">
+                            O Stillus Hotel oferece conforto, segurança e praticidade para sua estadia.
+                            Ideal para viagens a trabalho ou lazer, nossos quartos modernos
+                            proporcionam o descanso que você merece.
+                        </p>
+                    </div>
+
+                    <div class="features-grid">
+                        <div class="feature-card">
+                            <div class="feature-icon"><i class="fa-solid fa-mug-hot" aria-hidden="true"></i></div>
+                            <div>
+                                <div class="feature-name">Café da Manhã</div>
+                                <div class="feature-desc">Completo e variado</div>
+                            </div>
+                        </div>
+                        <div class="feature-card">
+                            <div class="feature-icon"><i class="fa-solid fa-utensils" aria-hidden="true"></i></div>
+                            <div>
+                                <div class="feature-name">Restaurante</div>
+                                <div class="feature-desc">Ao lado do hotel</div>
+                            </div>
+                        </div>
+                        <div class="feature-card">
+                            <div class="feature-icon"><i class="fa-solid fa-wifi" aria-hidden="true"></i></div>
+                            <div>
+                                <div class="feature-name">Wi-Fi Grátis</div>
+                                <div class="feature-desc">Alta velocidade</div>
+                            </div>
+                        </div>
+                        <div class="feature-card">
+                            <div class="feature-icon"><i class="fa-solid fa-square-parking" aria-hidden="true"></i></div>
+                            <div>
+                                <div class="feature-name">Estacionamento</div>
+                                <div class="feature-desc">Coberto e gratuito</div>
+                            </div>
+                        </div>
+                        <div class="feature-card">
+                            <div class="feature-icon"><i class="fa-solid fa-tv" aria-hidden="true"></i></div>
+                            <div>
+                                <div class="feature-name">TV a Cabo</div>
+                                <div class="feature-desc">Todos os quartos</div>
+                            </div>
+                        </div>
+                        <div class="feature-card">
+                            <div class="feature-icon"><i class="fa-solid fa-shield-halved" aria-hidden="true"></i></div>
+                            <div>
+                                <div class="feature-name">Segurança 24h</div>
+                                <div class="feature-desc">Monitoramento total</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+    <!-- ================================================
+         QUARTOS
+    ================================================= -->
+    <section id="quartos" class="section section-rooms">
+        <div class="container">
+
+            <div class="section-header reveal" style="text-align:center;">
+                <div class="section-eyebrow" style="justify-content:center;">Acomodações</div>
+                <h2 class="section-title">Nossos <em>Quartos</em></h2>
+                <p class="section-lead" style="margin:16px auto 0; text-align:center;">
+                    Ambientes projetados para o seu descanso total, com mobiliário moderno
+                    e toda infraestrutura necessária.
+                </p>
+            </div>
+
+            <!-- Abas -->
+            <div class="room-tabs" role="tablist" aria-label="Tipos de quarto">
+                <button class="room-tab active"
+                        data-panel="completo"
+                        role="tab"
+                        aria-selected="true"
+                        aria-controls="panel-completo">
+                    Quarto Completo
+                </button>
+                <button class="room-tab"
+                        data-panel="comum"
+                        role="tab"
+                        aria-selected="false"
+                        aria-controls="panel-comum">
+                    Quarto Comum
+                </button>
+            </div>
+
+            <!-- Painel: Quarto Completo -->
+            <div id="panel-completo" class="room-panel active reveal" role="tabpanel">
+                <div class="gallery-masonry">
+                    <img src="img/Apartamentos Completos 1.jpeg" alt="Quarto completo — vista geral"      loading="lazy">
+                    <img src="img/Apartamentos Completos 2.jpeg" alt="Quarto completo — cama"             loading="lazy">
+                    <img src="img/Apartamentos Completos 3.jpeg" alt="Quarto completo — banheiro"         loading="lazy">
+                    <img src="img/Apartamentos Completos 4.jpeg" alt="Quarto completo — área de trabalho" loading="lazy">
+                    <img src="img/Apartamentos Completos 5.jpeg" alt="Quarto completo — detalhes"         loading="lazy">
+                    <img src="img/Apartamentos Completos 6.jpeg" alt="Quarto completo — iluminação"       loading="lazy">
+                    <img src="img/Apartamentos Completos 7.jpeg" alt="Quarto completo — decoração"        loading="lazy">
+                    <img src="img/Apartamentos Completos 8.jpeg" alt="Quarto completo — vista"            loading="lazy">
+                </div>
+            </div>
+
+            <!-- Painel: Quarto Comum -->
+            <div id="panel-comum" class="room-panel" role="tabpanel">
+                <div class="gallery-masonry">
+                    <img src="img/WhatsApp Image 2026-02-11 at 18.27.42.jpeg"     alt="Quarto comum — vista geral"   loading="lazy">
+                    <img src="img/WhatsApp Image 2026-02-11 at 18.27.43 (1).jpeg" alt="Quarto comum — cama"          loading="lazy">
+                    <img src="img/WhatsApp Image 2026-02-11 at 18.27.43 (2).jpeg" alt="Quarto comum — banheiro"      loading="lazy">
+                    <img src="img/WhatsApp Image 2026-02-11 at 18.27.43 (3).jpeg" alt="Quarto comum — área de estar" loading="lazy">
+                    <img src="img/WhatsApp Image 2026-02-11 at 18.27.43.jpeg"     alt="Quarto comum — detalhes"      loading="lazy">
+                    <img src="img/WhatsApp Image 2026-02-11 at 18.27.44 (1).jpeg" alt="Quarto comum — iluminação"    loading="lazy">
+                    <img src="img/WhatsApp Image 2026-02-11 at 18.27.44.jpeg"     alt="Quarto comum — decoração"     loading="lazy">
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+
+    <!-- ================================================
+         COWORKING
+    ================================================= -->
+    <section id="cowork" class="section section-cowork">
+        <div class="container">
+            <div class="cowork-grid">
+
+                <!-- Texto -->
+                <div class="cowork-text reveal">
+                    <div class="section-header">
+                        <div class="section-eyebrow">Hall &amp; Espaço</div>
+                        <h2 class="section-title">Leitura &amp;<br><em>Coworking</em></h2>
+                        <p class="section-lead">
+                            Ambiente ideal para leitura, reuniões e home office, com Wi-Fi de alta velocidade.
+                            Perfeito para profissionais que precisam manter a produtividade durante a viagem.
+                        </p>
+                    </div>
+                    <div class="cowork-perks">
+                        <div class="cowork-perk">
+                            <i class="fa-solid fa-wifi" aria-hidden="true"></i>
+                            <span class="cowork-perk-text">Wi-Fi de alta velocidade exclusivo</span>
+                        </div>
+                        <div class="cowork-perk">
+                            <i class="fa-solid fa-briefcase" aria-hidden="true"></i>
+                            <span class="cowork-perk-text">Mesas e cadeiras ergonômicas</span>
+                        </div>
+                        <div class="cowork-perk">
+                            <i class="fa-solid fa-book" aria-hidden="true"></i>
+                            <span class="cowork-perk-text">Espaço tranquilo para leitura</span>
+                        </div>
+                        <div class="cowork-perk">
+                            <i class="fa-solid fa-mug-hot" aria-hidden="true"></i>
+                            <span class="cowork-perk-text">Café e chá disponíveis</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Imagem -->
+                <div class="cowork-img reveal reveal-delay-2">
+                    <img src="img/Area.jpeg"
+                         alt="Hall de leitura e coworking"
+                         loading="lazy">
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+    <!-- ================================================
+         CAFÉ DA MANHÃ
+    ================================================= -->
+    <section id="cafe" class="section section-breakfast">
+        <div class="container">
+
+            <div class="breakfast-intro reveal">
+                <div class="breakfast-quote">
+                    "O dia começa com muito<br>
+                    <span>sabor e cuidado</span><br>
+                    na mesa do Stillus"
+                </div>
+                <p class="breakfast-desc">
+                    Comece seu dia com um café da manhã completo e delicioso.
+                    Frutas frescas, pães artesanais, sucos naturais, ovos preparados
+                    na hora e muito mais — tudo incluso na sua estadia.
+                </p>
+            </div>
+
+            <div class="gallery-grid reveal">
+                <img src="img/cafe1.jpeg" alt="Café da manhã — buffet completo" loading="lazy">
+                <img src="img/cafe2.jpeg" alt="Café da manhã — frutas frescas"  loading="lazy">
+                <img src="img/cafe3.jpeg" alt="Café da manhã — pães e bolos"    loading="lazy">
+                <img src="img/cafe4.jpeg" alt="Café da manhã — sucos naturais"  loading="lazy">
+                <img src="img/cafe5.jpeg" alt="Café da manhã — café quente"     loading="lazy">
+                <img src="img/cafe6.jpeg" alt="Café da manhã — tapioca"         loading="lazy">
+                <img src="img/cafe7.jpeg" alt="Café da manhã — ovos preparados" loading="lazy">
+            </div>
+
+        </div>
+    </section>
+
+
+    <!-- ================================================
+         CTA STRIP
+    ================================================= -->
+    <section class="cta-strip" aria-label="Chamada para reserva">
+        <div class="container">
+            <div class="cta-inner reveal">
+
+                <div>
+                    <h2 class="cta-title">
+                        Reserve agora e viva<br>
+                        uma <em>experiência única</em>
+                    </h2>
+                    <p class="cta-sub">Entre em contato pelo WhatsApp — resposta imediata</p>
+                </div>
+
+                <a href="https://wa.me/5599999999999"
+                   target="_blank"
+                   rel="noopener noreferrer"
+                   class="btn-cta">
+                    <i class="fa-brands fa-whatsapp" aria-hidden="true"></i>
+                    Reservar pelo WhatsApp
+                </a>
+
+            </div>
+        </div>
+    </section>
+
+
+    <!-- ================================================
+         FOOTER
+    ================================================= -->
+    <footer class="footer">
+        <div class="container footer-top">
+            <div class="footer-grid">
+
+                <!-- Marca -->
+                <div class="footer-brand">
+                    <div class="brand-name">Still<span>us</span></div>
+                    <div class="brand-sub">Hotel &amp; Stay · Morrinhos, GO</div>
+                    <p>
+                        Conforto, segurança e praticidade para sua estadia.
+                        A escolha certa para viagens de negócios ou lazer em Morrinhos.
+                    </p>
+                    <div class="footer-socials">
+                        <a href="#" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
+                            <i class="fa-brands fa-instagram" aria-hidden="true"></i>
+                        </a>
+                        <a href="#" target="_blank" rel="noopener noreferrer" aria-label="Facebook">
+                            <i class="fa-brands fa-facebook" aria-hidden="true"></i>
+                        </a>
+                        <a href="https://wa.me/5599999999999" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp">
+                            <i class="fa-brands fa-whatsapp" aria-hidden="true"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Navegação -->
+                <div>
+                    <div class="footer-col-title">Navegação</div>
+                    <nav class="footer-links" aria-label="Links do rodapé">
+                        <a href="#sobre">Sobre o Hotel</a>
+                        <a href="#quartos">Quartos</a>
+                        <a href="#cowork">Espaço Coworking</a>
+                        <a href="#cafe">Café da Manhã</a>
+                    </nav>
+                </div>
+
+                <!-- Contato -->
+                <div>
+                    <div class="footer-col-title">Contato</div>
+                    <address class="footer-contact" style="font-style:normal;">
+                        <div class="footer-contact-item">
+                            <i class="fa-solid fa-phone" aria-hidden="true"></i>
+                            <a href="tel:+5599999999999">(99) 99999-9999</a>
+                        </div>
+                        <div class="footer-contact-item">
+                            <i class="fa-brands fa-whatsapp" aria-hidden="true"></i>
+                            <a href="https://wa.me/5599999999999" target="_blank" rel="noopener noreferrer">WhatsApp</a>
+                        </div>
+                        <div class="footer-contact-item">
+                            <i class="fa-solid fa-envelope" aria-hidden="true"></i>
+                            <a href="mailto:contato@stillushotel.com.br">contato@stillushotel.com.br</a>
+                        </div>
+                        <div class="footer-contact-item">
+                            <i class="fa-solid fa-location-dot" aria-hidden="true"></i>
+                            <span>Morrinhos, Goiás — Brasil</span>
+                        </div>
+                    </address>
+                </div>
+
+                <!-- Mapa -->
+                <div>
+                    <div class="footer-col-title">Localização</div>
+                    <div class="footer-map">
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18..."
+                            width="100%"
+                            height="180"
+                            style="border:0;"
+                            allowfullscreen=""
+                            loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade"
+                            title="Localização do Stillus Hotel">
+                        </iframe>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="container footer-bottom">
+            <p>&copy; 2025 Stillus Hotel. Todos os direitos reservados.</p>
+            <p>Morrinhos, Goiás — Brasil</p>
+        </div>
+    </footer>
+
+
+    <!-- ================================================
+         BOTÃO FLUTUANTE WHATSAPP
+    ================================================= -->
+    <a href="https://wa.me/5599999999999"
+       class="whatsapp-float"
+       target="_blank"
+       rel="noopener noreferrer"
+       aria-label="Fale conosco pelo WhatsApp">
+        <i class="fa-brands fa-whatsapp" aria-hidden="true"></i>
+    </a>
+
+
+    <!-- ================================================
+         MODAL DE IMAGEM
+    ================================================= -->
+    <div class="modal" id="modal" role="dialog" aria-modal="true" aria-label="Visualizar imagem">
+        <div class="modal-backdrop" id="modalBackdrop"></div>
+        <div class="modal-frame">
+            <img id="modalImg" src="" alt="">
+        </div>
+        <button class="modal-close" id="modalClose" aria-label="Fechar imagem">
+            <i class="fa-solid fa-xmark" aria-hidden="true"></i>
+        </button>
+        <div class="modal-nav" aria-hidden="true">
+            <button class="modal-btn" id="modalPrev" aria-label="Imagem anterior">
+                <i class="fa-solid fa-chevron-left" aria-hidden="true"></i>
+            </button>
+            <button class="modal-btn" id="modalNext" aria-label="Próxima imagem">
+                <i class="fa-solid fa-chevron-right" aria-hidden="true"></i>
+            </button>
+        </div>
+    </div>
+
+
+    <!-- JavaScript -->
+    <script src="script.js" defer></script>
+
+</body>
+</html>
